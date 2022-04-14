@@ -1,0 +1,83 @@
+body {
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 0;
+    background: #222;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("https://source.unsplash.com/random/700%C3%9400/?suez") ;
+  padding: 0;
+    background-size: cover;
+  
+}
+.comp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 300px;
+    margin: 1em;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 40%;
+    border: none;
+    outline: none;
+    background-color: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button:hover {
+    
+    background-color: #7c7c7c6b;
+  
+}
+input.search {
+    border-radius: 17px;
+    border: none;
+    outline: none;
+    background-color: #7c7c7c2b;
+    padding: 0.5em 1em;
+    font-size: 120%;
+    color: white;
+}
+.describtion{
+    margin-bottom: 0.5em;
+}
+.humidity{
+    margin-bottom: 0.5em;
+}
+.footer {
+    background-color: #000000d0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.cridet{
+    color: white;
+}
+.twitter{
+    color: #1DA1F2;
+    margin-left: 6px;
+}
