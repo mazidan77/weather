@@ -9,15 +9,25 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Weather app</title>
 </head>
 <body>
     <div class="container">
-        <div class="comp"> <div class="card">
-            <form class="search">
-                <input type="text" class="search" placeholder="Search">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
+        <div class="logo">
+            Weather 
+        </div>
+        <div class="comp"> 
+            <button class="btn"> Get your cuurent location   <i class="fa-solid fa-location-dot"></i></button>
+            <div class="card">
+                <div class="bar">
+                    <form class="search">
+                        <input type="text" class="search" placeholder="Search">
+                        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        
+                    </form>
+                    <!-- <button class="btn search-btn"><i class="fa-solid fa-location-dot"></i></button> -->
+                </div>
+            
             <div class="weather">
                 <h2 class="city"></h2>
                 <h1 class="temp"></h1>
@@ -26,12 +36,18 @@
                 <div class="humidity"></div>
                 <div class="wind"></div>
             </div>
-        </div></div>
+        </div>
+       
+            
+        
+    </div>
+  
        
         <div class="footer">
             
                 <p class="cridet">developed by Zidan</p>
                 <a class="twitter" target="blank" href="https://twitter.com/mohamedzidan96"><i class="fab fa-twitter"></i></a>
+                <!-- <a class="linkedin" target="blank" href="https://twitter.com/mohamedzidan96"><i class="fa-brands fa-linkedin"></i></a> -->
             
           
         </div>
