@@ -6,6 +6,7 @@ const temp = document.querySelector(".temp");
 const describtion = document.querySelector(".describtion");
 const humidity = document.querySelector(".humidity");
 const wind = document.querySelector(".wind");
+const pressure = document.querySelector(".pressure")
 const icon = document.querySelector(".icon");
 const finalinput = input.value;
  const button2 = document.querySelector(".btn")
@@ -29,6 +30,7 @@ const finalinput = input.value;
               describtion.innerHTML = data.weather[0].description;
               wind.innerHTML = `<i class="fa-solid fa-wind"></i> wind speed ${data.wind.speed} km/h `;
               humidity.innerHTML = ` humidity:  ${data.main.humidity} % `;
+              pressure.innerHTML = ` pressure : ${data.main.pressure}`
               document.body.style.backgroundImage =
                 "url('https://source.unsplash.com/random/" +
                 finalinput +
@@ -76,6 +78,7 @@ const finalinput = input.value;
               describtion.innerHTML = data.weather[0].description;
               wind.innerHTML = `<i class="fa-solid fa-wind"></i> wind speed ${data.wind.speed} km/h `;
               humidity.innerHTML = ` humidity:  ${data.main.humidity} % `;
+              pressure.innerHTML = ` pressure : ${data.main.pressure}`
               document.body.style.backgroundImage =
                 "url('https://source.unsplash.com/random/" +
                 finalinput +
@@ -121,6 +124,7 @@ const finalinput = input.value;
         describtion.innerHTML = data.weather[0].description;
         wind.innerHTML = `<i class="fa-solid fa-wind"></i> wind speed ${data.wind.speed} km/h `;
         humidity.innerHTML = `  humidity:  ${data.main.humidity} % `;
+        pressure.innerHTML = ` pressure : ${data.main.pressure}`
         document.body.style.backgroundImage =
           "url('https://source.unsplash.com/1600x900/?" +
           finalinput +
