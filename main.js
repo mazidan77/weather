@@ -16,7 +16,7 @@ button2.addEventListener("click", function () {
 
         const lat = position.coords.latitude
         const lon = position.coords.longitude
-       
+        console.log(new Date())
 
 
         fetch(
@@ -28,8 +28,8 @@ button2.addEventListener("click", function () {
              
               temp.innerHTML = `${data.main.temp}°`;
               describtion.innerHTML = data.weather[0].description;
-              wind.innerHTML = `wind speed ${data.wind.speed} km/h `;
-              humidity.innerHTML = `humidity:  ${data.main.humidity} % `;
+              wind.innerHTML = `<i class="fa-solid fa-wind"></i> wind speed ${data.wind.speed} km/h `;
+              humidity.innerHTML = ` humidity:  ${data.main.humidity} % `;
               document.body.style.backgroundImage =
                 "url('https://source.unsplash.com/random/" +
                 finalinput +
@@ -73,8 +73,8 @@ button2.addEventListener("click", function () {
        
         temp.innerHTML = `${data.main.temp}°`;
         describtion.innerHTML = data.weather[0].description;
-        wind.innerHTML = `wind speed ${data.wind.speed} km/h `;
-        humidity.innerHTML = `humidity:  ${data.main.humidity} % `;
+        wind.innerHTML = `<i class="fa-solid fa-wind"></i> wind speed ${data.wind.speed} km/h `;
+        humidity.innerHTML = `  humidity:  ${data.main.humidity} % `;
         document.body.style.backgroundImage =
           "url('https://source.unsplash.com/1600x900/?" +
           finalinput +
