@@ -67,7 +67,7 @@ input.search {
 }
 .footer {
     background-color: #000000d0;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     display: flex;
