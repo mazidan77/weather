@@ -52,6 +52,7 @@ const finalinput = input.value;
 
 
 
+
         console.error(error)
     }
     
@@ -100,7 +101,8 @@ const finalinput = input.value;
 
     }
     const errorCallback =(error)=>{
-        alert("please open your location services or use search ")
+
+         console.error(error)
     }
     
     navigator.geolocation.getCurrentPosition(successCallback,errorCallback)
