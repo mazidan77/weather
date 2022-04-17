@@ -50,7 +50,7 @@ const finalinput = input.value;
     }
     const errorCallback =(error)=>{
 
-temp.innerHTML = `open your location service or search`;
+Alert("please open your location service or search ")
 
         console.error(error)
     }
