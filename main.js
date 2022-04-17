@@ -42,7 +42,7 @@ const finalinput = input.value;
                 console.log(data)
             })
         
-            .catch((err) => alert("Please enter a valid City"));
+            .catch((err) => alert("Please enter a valid City "));
 
 
 
