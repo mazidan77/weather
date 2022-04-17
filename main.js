@@ -100,7 +100,7 @@ Alert("please open your location service or search ")
 
     }
     const errorCallback =(error)=>{
-        console.error(error)
+        alert("please open your location services or use search ")
     }
     
     navigator.geolocation.getCurrentPosition(successCallback,errorCallback)
